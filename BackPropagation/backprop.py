@@ -75,7 +75,8 @@ for e in range(epochs):
 
         # Update the change in weights
         # special case
-        # Normally, del_w_hidden_output = error_term * vin[:, None]
+        # Normally, del_w_hidden_output = error_term * vin[:, None] (for shape(n, ) (m, ))
+        # del_w = np.dot(vin.T, error_term) (for shape(1, m)  (1,n))
         del_w_hidden_output += output_error_term * hidden_output
         del_w_input_hidden += hidden_error_term * x[:, None]
 
