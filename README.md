@@ -7,4 +7,4 @@ Project of Deep Learning in Udacity 2017
 
 
 [1]:https://github.com/wbbeyourself/DeepLearningInUdacity/tree/master/BackPropagation
-[2]:https://github.com/wbbeyourself/DeepLearningInUdacity/tree/master/minflow
+[2]:https://github.com/wbbeyourself/DeepLearningInUdacity/tree/master/miniflow
