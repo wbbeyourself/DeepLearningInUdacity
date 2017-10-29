@@ -8,7 +8,7 @@ to test your network!
 Make your changes to backward method of the Sigmoid class in miniflow.py
 """
 
-from miniflow.miniflow import *
+from miniflow import *
 
 X, W, b = Input(), Input(), Input()
 y = Input()
